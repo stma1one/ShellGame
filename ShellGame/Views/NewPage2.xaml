@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShellGame.Views.NewPage2"
+             xmlns:views="clr-namespace:ShellGame.Views"
+             x:DataType="views:NewPage2"
+             Title="דף 2">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to Page 2" FontSize="55"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Text="Go to Page 3" Command="{Binding NavigateToPageCommand}" />
+    </VerticalStackLayout>
+</ContentPage>
